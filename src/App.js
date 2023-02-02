@@ -1,18 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return ( <
-    div className = "App" >
-    <
-    header className = "App-header" >
-    <
-    p >
-    <
-    code > Dbd - wiki < /code> <
-    /p> <
-    /header> <
-    /div>
+  return (
+    <div className="App">
+      <header className="App-header">
+        <p>
+          <code>Dbd-wiki</code>
+        </p>
+      </header>
+    </div>
   );
 }
 
