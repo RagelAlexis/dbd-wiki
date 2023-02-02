@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    min-height: 75px;
+    color: #FFF;
+    background-color: #000;
+}
+
+.navbar__links {
+    display: flex;
+}
+
+.navbar__link {
+    padding: 0 0.3rem;
+    color: inherit;
+}
+
+.navbar__burger {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    color: inherit;
+    border: none;
+}
